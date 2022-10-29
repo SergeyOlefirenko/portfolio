@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+/* Dropdown button */
+.dropbtn {
+    background-color:white;
+    width: 40px;
+    height: 40px;
+    margin-right: 2px;
+    border: none;
+  }
+  
+  /* Container <div> - needed to contain the dropdown content */
+  .dropdown {
+    position:relative;
+    display: inline-block;
+  }
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+  }
+
+  /* Links inside the dropdown list */
+  .dropdown-content a {
+    color: black;
+    padding: 5px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: small;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: aqua;
+  }
+  
+  /* Show dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of a dropdown button when displaying the contents of the dropdown */
+  .dropdown:hover .dropbtn {
+    width: 42px;
+    height: 42px;
+    border: none;
+    
+  }
+
+body{
+
+    background-color: gray;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    background-color: teal;
+    padding-top: 1px;
+    padding-bottom: 20px;
+  }
+  .main{
+    background-color: white;
+    font-family: 'Fuzzy Bubbles', cursive;
+  }
+   .minibox{
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    background-color: white;
+   }
+   .m-text{
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    left: 320px;
+   }
+   .minibox button {
+    background-color: white;
+   }
+  .item {
+    padding-top: 0px;
+    padding-left: 0px;
+    border: none;
+    border-radius: 15%;
+    width: 40px;
+    height: 40px;
+  }
+  .item img{
+    padding-top: 0px;
+    padding-left: 0px;
+    border-radius: 15%;
+  }
+  .item img:hover{
+    width: 42px;
+    height: 42px;
+  }
+  .logo {
+    padding-top: 0px;
+    padding-left: 0px;
+    border: none;
+    border-radius: 15%;
+    width: 70px;
+    height: 70px;
+  }
+  .logo img{
+    padding-top: 0px;
+    padding-left: 0px;
+    border-radius: 15%;
+  }
+  .logo img:hover{
+    width: 72px;
+    height: 72px;
+  }
+  div button{
+    background-color:teal;
+  }
+  .picture {
+    padding-top: 0px;
+    padding-left: 0px;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    
+  }
+  .picture img{
+    border-radius: 50%;
+    margin-top: 2px;
+    margin-left: 5px;
+    float: left;
+  }
+  .picture img:hover{
+    width: 305px;
+    height: 305px;
+  }
+   .video {
+    padding-top: 0px;
+    padding-left: 0px;
+    border: none;
+    border-radius: 15%;
+    width: 120px;
+    height: 70px;
+  }
+  .wcp {
+    padding-top: 0px;
+    padding-left: 0px;
+    border: none;
+    border-radius: 15%;
+    width: 100px;
+    height: 70px;
+  }
+  .video img{
+    padding-top: 0px;
+    padding-left: 0px;
+    border-radius: 5%;
+  }
+  .wcp img{
+    padding-top: 0px;
+    padding-left: 0px;
+    border-radius: 5%;
+  }
+  .video img:hover{
+    width: 122px;
+    height: 72px;
+  }
+  .wcp img:hover{
+    width: 102px;
+    height: 72px;
+  }
+  .wcpp {
+    padding-top: 0px;
+    padding-left: 0px;
+    border: none;
+    border-radius: 15%;
+    width: 50px;
+    height: 70px;
+  }
+  .wcpp img{
+    padding-top: 0px;
+    padding-left: 0px;
+    border-radius: 5%;
+  }
+  .wcpp img:hover{
+    width: 52px;
+    height: 72px;
+  }
+  
+  .socialnetworks{
+    text-align: right;
+    background-color: tomato;
+    margin-top: 5px;
+    padding-top: 1px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+  .socialnetworks img button{
+    padding-right: 50px;
+  }
+  .box-work{
+    background-color: aqua;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
+  .box-interests{
+    background-color:turquoise;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
+  h4{
+    margin-bottom: 5px;
+  }
+  .s-logo {
+    padding-top: 0px;
+    padding-left: 0px;
+    border: none;
+    border-radius: 15%;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+  }
+
+  .s-logo img{
+    padding-top: 0px;
+    padding-left: 0px;
+    border-radius: 15%;
+  }
+  .s-logo img:hover{
+    width: 52px;
+    height: 52px;
+  }
+  h3{
+    float: left;
+    margin-left:81% ;
+    margin-bottom: 10px;
+    font-family: 'Fuzzy Bubbles', cursive;
+
+  }
+  h4{
+    padding-right: 20px;
+    font-family: 'Fuzzy Bubbles', cursive;
+  }
+  .main p, h2{
+    margin-left: 10px;
+    font-family: 'Fuzzy Bubbles', cursive;
+  }
+  .tasks{
+    padding-top: 10px;
+    background-color: rgb(175, 175, 175);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  div p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  
